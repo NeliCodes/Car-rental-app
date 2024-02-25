@@ -1,0 +1,122 @@
+section {
+    box-sizing: border-box;
+    padding: 0.5em;
+    margin: 0 auto;
+}
+a, a:visited, a:active {
+  color: inherit; 
+  text-decoration: none; 
+}
+.content {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* justify-content: center; */
+  text-align: center;
+  color: #fff;
+  font-size: 0.8rem;
+  width: 50%;
+  margin: 0 auto;
+}
+.first-btn {
+  color: #fff;
+  font-weight: 800;
+  padding: 1.4em 2em;
+  background-color: #001689;
+  border: none;
+  border-radius: 7em;
+  
+}
+
+.content h1 {
+  font-weight: 1000;
+}
+button {
+  cursor: pointer;
+}
+
+
+
+
+.the-main {
+  background-color: rgb(243, 247, 252);
+  color: rgb(122, 122, 122);
+  padding-top: 2em;
+ padding-bottom: 2em;
+ font-size: 16px !important;
+}
+
+.the-main p, h4 {
+  font-size: 16px !important;
+}
+.headings-main {
+  text-align: center;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.main {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  margin: 0 auto;
+  color: rgb(122, 122, 122);
+}
+.main button {
+  padding: 1em;
+  color: rgb(122, 122, 122);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+}
+.the-main svg {
+  font-size: 3em !important;
+}
+.main1 {
+  padding: 2em;
+  background-color: #fff;
+}
+.main2 {
+  padding: 2em;
+  background-color: #fff;
+}
+.main3 {
+  padding: 2em;
+  background-color: #fff;
+}
+.main4 {
+  padding: 2em;
+  background-color: #fff;
+}
+@media screen and (min-width: 481px) {
+  
+}
+@media screen and (min-width: 769px) {
+  .main {
+    width: 100%;
+        display: grid;                  
+           grid-template-columns: 1fr 1fr; 
+           gap: 20px; 
+           font-size: 20px;
+  }
+  .headings-main {
+    font-size: 1.5em;
+
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main {
+    width: 100%;
+        display: grid;                  
+           grid-template-columns: 1fr 1fr 1fr 1fr; 
+           gap: 20px; 
+           font-size: 20px;
+  }
+}
+@media screen and (min-width: 1204px) {
+  .the-main {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}

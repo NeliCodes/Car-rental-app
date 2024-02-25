@@ -1,0 +1,113 @@
+.section {
+    box-sizing: border-box;
+    padding: 0.5em;
+    margin: 0 auto;
+}
+.flex-block svg {
+     font-size: 30px;
+    margin: 0 auto;
+}
+.div1 div {
+     border: 1px solid rgb(222, 221, 221);
+     padding: 2em;
+     display: grid;
+     justify-content: center;
+     margin-bottom: 1em;
+}
+.div2 div {
+    border: 1px solid rgb(222, 221, 221);
+    padding: 2em;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.div3 div {
+    border: 1px solid rgb(222, 221, 221);
+    padding: 2em;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.div4 div {
+    border: 1px solid rgb(222, 221, 221);
+    padding: 2em;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.div5 div {
+    border: 1px solid rgb(222, 221, 221);
+    padding: 2em;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.div6 div {
+    border: 1px solid rgb(222, 221, 221);
+    padding: 2em;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.div7 div {
+    border: 1px solid rgb(222, 221, 221);
+    padding: 2em;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+.location {
+    background-color: rgb(1, 24, 138);
+    color: #fff;
+    font-weight: 700;
+}
+.custom-head {
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    font-size: 1.2em;
+}
+.flex-block div {
+    cursor: pointer;
+}
+.flex-block {
+    margin-top: 2em;
+}
+a, a:visited, a:active {
+    color: inherit; 
+    text-decoration: none; 
+  }
+@media screen and (min-width: 769px) {
+    .flex-block {
+        width: 100%;
+        display: grid;                  
+           grid-template-columns: 1fr 1fr 1fr; 
+           gap: 20px; 
+    }
+    .div1 div {
+        padding: 1em;
+    }
+    .div2 div {
+        padding: 1em;
+    }
+    .div3 div {
+        padding: 1em;
+    }
+    .div4 div {
+        padding: 1em;
+    }
+    .div5 div {
+        padding: 1em;
+    }
+    .div6 div {
+        padding: 1em;
+    }
+    .div7 div {
+        padding: 1em;
+    }
+}

@@ -1,0 +1,95 @@
+section {
+    box-sizing: border-box;
+    padding: 1em;
+    margin: 0 auto;
+}
+a, a:visited, a:active {
+    color: inherit; 
+    text-decoration: none; 
+  }
+.mainComp button {
+    cursor: pointer;
+}
+.rental-car {
+    height: 100%;
+    width: 100%;
+}
+.car-block {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px 0px;
+    border-radius: 4px;
+}
+.car-block h3 {
+    color: rgb(13, 100, 176);
+    font-weight: 700;
+}
+.flexi {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    color: rgb(13, 100, 176);
+}
+.flexi p {
+color: rgb(122, 122, 122);
+}
+.car-block button {
+    background-color: rgb(3, 27, 97);
+    padding: 1em;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    
+}
+.car-block button:hover {
+    color: rgb(3, 27, 97);
+    background-color: #fff;
+    border: 1px solid rgb(3, 27, 97);
+    
+}
+.buttons {
+    display: flex;
+    
+}
+.space {
+    margin: 0.2em;
+}
+@media screen and (min-width: 481px) {
+    .flexi {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .flexi {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .flexi {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .flexi {
+        width: 20%;
+        gap: 1em;
+    }
+    .mainComp {
+         width: 100%;
+         display: grid;                  
+            grid-template-columns: 1fr 1fr 1fr; 
+            gap: 20px; 
+    }
+    .rental-car {
+        width: 80%;
+        height: 40%;
+    }
+    .car-block {
+        height: 35em;
+        width: initial;
+    }
+}
